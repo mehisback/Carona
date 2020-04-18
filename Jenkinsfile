@@ -26,7 +26,7 @@ pipeline {
 
     stage('deploy') {
       steps {
-        sh 'echo "rsync the build to servers"'
+        sh 'ech "rsync the build to servers"'
       }
     }
 
